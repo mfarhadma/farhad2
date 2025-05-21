@@ -268,75 +268,7 @@ function App() {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="portfolio-section">
-        <div className="container">
-          <h2 className="section-title">My Work</h2>
-          <div className="portfolio-filter">
-            <button className="filter-btn active">All</button>
-            <button className="filter-btn">Web</button>
-            <button className="filter-btn">Mobile</button>
-            <button className="filter-btn">Design</button>
-          </div>
-          <div className="portfolio-grid">
-            <div className="portfolio-item">
-              <div className="portfolio-image">
-               
-                <div className="portfolio-overlay">
-                  <h3>pet care E-commerce Platform</h3>
-                  <p>React, Node.js, MongoDB</p>
-                  <button 
-  onClick={() => window.open("https://petandvet.netlify.app", "_blank")} 
-  className="btn primary"
->
-  View Details
-</button>
-                </div>
-              </div>
-            </div>
-            <div className="portfolio-item">
-              <div className="portfolio-image">
-              
-                <div className="portfolio-overlay">
-                  <h3>Explore Bangladesh</h3>
-                  <p>React Native, Firebase</p>
-                  <button 
-  onClick={() => window.open("https://explorebangladesh.netlify.app", "_blank")} 
-  className="btn primary"
->
-  View Details
-</button>
-                </div>
-              </div>
-            </div>
-            <div className="portfolio-item">
-              <div className="portfolio-image">
-                
-                <div className="portfolio-overlay">
-                  <h3>Farmers Export E-commerce</h3>
-                  <p>Next.js, Tailwind CSS</p>
-                  <button 
-  onClick={() => window.open("https://bengalharvestglobal.netlify.app", "_blank")} 
-  className="btn primary"
->
-  View Details
-</button>
-                </div>
-              </div>
-            </div>
-
-            
-
-
-
-            
-
-
-
-
-            
-          </div>
-        </div>
-      </section>
+      
 
       {/* Reviews Section */}
       <section id="reviews" className="reviews-section">
